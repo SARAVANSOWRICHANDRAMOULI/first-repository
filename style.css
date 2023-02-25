@@ -107,6 +107,36 @@ body{
         align-items: center;
         justify-content: space-between;
     }
+    .explore__menu__lists{
+        display: flex;
+        margin-top: 30px;
+        gap: 8px;
+    }
+    #pizza__card{
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    .explore__menu__container{
+        position: relative;
+    }
+    .explore__menu__gradient__bg{
+        position: absolute;
+        left: 0;
+        top: 0;
+    
+        height: 100%;
+        width: 100%;
+    
+        background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+        );
+        
+        z-index: -3;
+        transform: skewY(-5deg);
+    }    
 }
 @media(min-width:1020px){
     .container{
@@ -119,5 +149,15 @@ body{
 @media(min-width:1400px){
     .container{
         max-width: 1250px;
+    }
+    .hero__text{
+        font-size: 50px;
+    }
+    .explore__menu__lists{
+        gap: 12px;
+        padding: 0 20px;
+    }
+    .explore__menu__text{
+        font-size: 50px;
     }
 }

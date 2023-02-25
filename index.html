@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomato Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!--Navbar-->    
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <img src="/assets/logo.png" alt="Logo.png" class="navbar__logo">
+            </div>
+            <div class="navbar__nav__items">
+                <button class="button__primary">Order Food</button>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!--Hero section-->
+        <section class="hero__container">
+            <div class="hero__image__container">
+                <img src="/assets/hero.jpg" alt="hero__image" class="hero__image">
+                <!--
+                <img src="/assets/svg/herobgpattren.svg" alt="background" class="hero__bg__pattern">
+                <img src="/assets/svg/heroShape.svg" alt="heroShape" class="hero__shape">-->
+            </div>
+            <div class="hero__description">
+                <h1 class="hero__text">Order food from favorite restraunt near you.</h1>
+                <button class="button__primary">Order now</button>
+            </div>
+        </section>
+        <!--Explore Menu-->
+        <section class="explore__menu__container">
+            <h1 class="explore__menu__text">Explore Our Menu</h1>
+            <div class="explore__menu__lists">
+                <div class="food__menu__card">
+                    <img src="/assets/burger.jpg" alt="burger" class="food__image">
+                    <div class="food__menu__card__description">
+                        <h3 class="food__title"></h3>
+                        <p class="food__restraunts"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
+
+
+<!--
+1st time:
+    git init
+    git add .
+    git remote add 
+    git commit -m "message"
+    git push origin master
+    
+2nd time:
+    git add .
+    git commit -m "message"
+    git push origin master
+-->
